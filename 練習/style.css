@@ -1,0 +1,38 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.Question_display{
+    border: 1px solid #000;
+    text-align: center;
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+}
+button{
+    display: block;
+    margin: 8% auto;
+    /* ボタンの形 */
+    color: #fff;
+    background-color: blue;
+    width: 350px;
+    height: 70px;
+}
+@media (max-width: 768px) {
+    .Question_display{
+        width: 100%;
+    }
+    #question{
+        margin: 30px auto;
+        padding: 50px 0;
+        width: 99%;
+        border: 2px solid #000;
+        font-size: 20px;
+    }
+    button{
+        margin: 15% auto;
+    }
+}
